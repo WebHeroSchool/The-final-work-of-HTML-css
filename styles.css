@@ -19,7 +19,7 @@ body {
 }
 
 .menu__item {
-  
+  font: 500 22px/26px museo_sans_cyrl, arial, helvetica, sans-serif; 
 }
 
 .hamburger-menu {
@@ -43,19 +43,19 @@ body {
 }
 
 .main-content__title {
- 
+  font: 700 280px/371px pt_serifbold, arial, helvetica, sans-serif;
 }
 
-.main-content__title2 {
-
+.main-content__title-2 {
+  font: 700 98px/130px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main-content__subtitle {
-  
+  font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
 }
 
 .main-content__button {
-
+  font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
 }
 
 .image-content {
