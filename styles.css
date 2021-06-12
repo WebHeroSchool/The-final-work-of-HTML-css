@@ -1,29 +1,46 @@
+* {
+  margin: 0;
+  text-decoration: none;
+}
 body {
-
+  background: url('img/iswanto-arif-448003-unsplash(1).svg');
 }
 
 .wrapper {
- 
+  margin: auto;
+  width: 88%;
 }
 
 .header {
-  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .logo {
-
+  margin: 88px 85px;
+  width: 146px;
+  height: 55px;
+  background: url('img/Vector(1).svg');
 }
 
 .menu {
-
+  display: flex;
+  align-items: center;
 }
 
 .menu__item {
-  font: 500 22px/26px museo_sans_cyrl, arial, helvetica, sans-serif; 
+  margin-right: 39px;
+  font: 500 22px/26px museo_sans_cyrl, arial, helvetica, sans-serif;
+  color: #f8eee4;
+  cursor: pointer;
+}
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .hamburger-menu {
-
+  display: none;
 }
 
 .menu__btn {
@@ -35,31 +52,51 @@ body {
 }
 
 .main-section {
-
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
 .main-content {
-
+  max-width: 50%;
 }
 
 .main-content__title {
+  margin-left: 84px;
   font: 700 280px/371px pt_serifbold, arial, helvetica, sans-serif;
+  color: #f8eee4;
+  opacity: 0.4;
 }
 
 .main-content__title-2 {
+  position: absolute;
+  top: 224px;
+  left: 166px;
   font: 700 98px/130px pt_serifbold, arial, helvetica, sans-serif;
+  color: #f8eee4;
 }
 
 .main-content__subtitle {
-  font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+  margin-bottom: 57px;
+  max-width: 65%;
+  margin-left: 106px;
+  font: 500 22px/28px museo_sans_cyrl, arial, helvetica, sans-serif;
+  color: #f8eee4;
 }
 
 .main-content__button {
-  font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+  width: 294px;
+  height: 62px;
+  padding: 17px 87px;
+  border-radius: 48px;
+  background-color: #d4bea3;
+  margin-left: 110px;
+  font: 500 22px/23px museo_sans_cyrl, arial, helvetica, sans-serif;
+  color: #fff;
 }
 
 .image-content {
-
+  
 }
 
 .image-content__img1 {
