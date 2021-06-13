@@ -96,17 +96,141 @@ body {
 }
 
 .image-content {
-  
+  position: relative;
 }
 
 .image-content__img1 {
-
+  position: absolute;
+  position: absolute;
+  top: 108px;
+  right: 444px;
 }
 
 .image-content__img2 {
-
+  position: absolute;
+  position: absolute;
+  top: 127px;
+  right: 127px;
 }
 
 .image-content__img3 {
+  position: absolute;
+  position: absolute;
+  top: 127px;
+  left: -92px;
+}
 
+@media (max-width: 1480px) {
+  .wrapper {
+    width: 92%;
+  }
+
+  .header {
+    margin-bottom: 25px;
+  }
+
+  .logo {
+    width: 144px;
+  }
+
+  .main-content__title {
+    font: 700 226px/288px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main-content__title-2 {
+    top: 181px;
+    left: 166px;
+    font: 700 80px/95px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main-content__subtitle {
+    font: 500 19px/25px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__button {
+    font: 500 19px/21px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .image-content__img1 {
+    width: 226px;
+    top: 80px;
+    right: 344px;
+  }
+
+  .image-content__img2 {
+    width: 202px;
+    top: 94px;
+    right: 117px;
+  }
+
+  .image-content__img3 {
+    height: 270px;
+    top: 93px;
+    left: -92px;
+  }
+}
+
+@media (max-width: 1367px) {
+  .header {
+    margin-bottom: 33px;
+  }
+
+  .logo {
+    margin: 63px 88px;
+    width: 102px;
+    height: 39px;
+  }
+  .menu {
+    margin-right: 26px;
+  }
+  .menu__item {
+    margin-right: 27px;
+    font: 500 16px/31px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__title {
+    margin: 0 0 4px 87px;
+    font: 700 200px/265px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main-content__title-2 {
+    top: 163px;
+    left: 147px;
+    font: 700 70px/93px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  .main-content__subtitle {
+    margin-bottom: 37px;
+    max-width: 64%;
+    font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__button {
+    margin-left: 102px;
+    padding: 13px 62px;
+    font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 1180px) {
+  .image-content__img1 {
+    width: 188px;
+    top: 80px;
+    right: 266px;
+  }
+
+  .image-content__img2 {
+    width: 163px;
+    top: 94px;
+    right: 80px;
+  }
+  
+  .image-content__img3 {
+    height: 217px;
+    top: 94px;
+    left: -58px;
+  }
+}
+
+@media (max-width: 1025px) {
+  
 }
