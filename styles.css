@@ -43,14 +43,6 @@ body {
   display: none;
 }
 
-.menu__btn {
-
-}
-
-.menu__box {
-
-}
-
 .main-section {
   display: flex;
   justify-content: space-between;
@@ -85,8 +77,6 @@ body {
 }
 
 .main-content__button {
-  width: 294px;
-  height: 62px;
   padding: 17px 87px;
   border-radius: 48px;
   background-color: #d4bea3;
@@ -96,17 +86,410 @@ body {
 }
 
 .image-content {
-  
+  position: relative;
 }
 
 .image-content__img1 {
-
+  position: absolute;
+  top: 108px;
+  right: 444px;
 }
 
 .image-content__img2 {
-
+  position: absolute;
+  top: 127px;
+  right: 127px;
 }
 
 .image-content__img3 {
+  position: absolute;
+  top: 127px;
+  left: -92px;
+}
+
+ .image-content__img4{
+  display: none;
+ }
+
+@media (max-width: 1600px) {
+  .wrapper {
+    width: 92%;
+  }
+
+  .header {
+    margin-bottom: 25px;
+  }
+
+  .logo {
+    width: 144px;
+  }
+
+  .main-content__title {
+    font: 700 226px/288px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main-content__title-2 {
+    top: 181px;
+    left: 166px;
+    font: 700 80px/95px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main-content__subtitle {
+    font: 500 19px/25px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__button {
+    font: 500 19px/21px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .image-content__img1 {
+    width: 226px;
+    top: 80px;
+    right: 344px;
+  }
+
+  .image-content__img2 {
+    width: 202px;
+    top: 94px;
+    right: 117px;
+  }
+
+  .image-content__img3 {
+    height: 270px;
+    top: 93px;
+    left: -92px;
+  }
+}
+
+@media (max-width: 1367px) {
+  body {
+    background: url('img/fonovaya1366.png');
+  }
+
+  .header {
+    margin-bottom: 33px;
+  }
+
+  .logo {
+    margin: 63px 88px;
+    width: 102px;
+    height: 39px;
+  }
+  .menu {
+    margin-right: 26px;
+  }
+  .menu__item {
+    margin-right: 27px;
+    font: 500 16px/31px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__title {
+    margin: 0 0 4px 87px;
+    font: 700 200px/265px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main-content__title-2 {
+    top: 163px;
+    left: 147px;
+    font: 700 70px/93px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  .main-content__subtitle {
+    margin-left: 103px;
+    margin-bottom: 37px;
+    max-width: 64%;
+    font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__button {
+    margin-left: 104px;
+    padding: 13px 62px;
+    font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 1180px) {
+  .image-content__img1 {
+    width: 188px;
+    top: 80px;
+    right: 266px;
+  }
+
+  .image-content__img2 {
+    width: 163px;
+    top: 94px;
+    right: 80px;
+  }
+  
+  .image-content__img3 {
+    height: 217px;
+    top: 94px;
+    left: -58px;
+  }
+}
+
+@media (max-width: 1025px) {
+  body {
+    background: url('img/fonovaya1024.png');
+    background-repeat: no-repeat;
+  }
+
+  .logo {
+    margin: 65px 1px;
+  }
+
+  .menu {
+    margin-right: 0;
+  }
+  
+  .menu__item {
+    margin-right: 25px;
+  }
+
+  .main-content__title {
+    margin: 0 0 3px 0px;
+  }
+  
+  .main-content__title-2 {
+    top: 161px;
+    left: 59px;
+  }
+  
+  .main-content__subtitle {
+    max-width: 83%;
+    margin-left: 15px;
+  }
+
+  .main-content__button {
+    margin-left: 17px;
+  }
+
+
+  .image-content__img1 {
+    width: 226px;
+    top: 78px;
+    right: 246px;
+  }
+
+  .image-content__img2 {
+    width: 202px;
+    top: 94px;
+    right: 21px;
+  }
+
+  .image-content__img3 {
+    display: none;
+    height: 269px;
+    top: 92px;
+    left: 4px;
+  }
+  .image-content__img4{
+    display: block;
+    position: absolute;
+    top: 93px;
+    right: -41px;
+
+  }
+}
+
+@media (max-width: 950px) {
+  .main-content__title {
+    font: 700 165px/230px pt_serifbold, arial, helvetica, sans-serif;;
+  }
+
+  .main-content__title-2 {
+    font: 700 57px/77px pt_serifbold, arial, helvetica, sans-serif;
+    top: 140px;
+    left: 55px;
+    margin: 0;
+  }
+
+  .main-content__subtitle {
+    max-width: 75%;
+    font: 500 15px/18px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__button {
+    font: 500 15px/18px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .image-content__img1 {
+    width: 195px;
+    top: 78px;
+    right: 190px;
+  }
+
+  .image-content__img2 {
+    width: 180px;
+    top: 87px;
+    right: -9px;
+  }
+
+  .image-content__img3,
+  .image-content__img4 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 769px) {
+  .header {
+    margin-bottom: 17px;
+  }
+
+  .logo {
+    margin: 42px 27px;
+  }
+
+  .main-section {
+    text-align: center;
+  }
+
+  .main-content {
+    max-width: 98%;
+  }
+
+  .main-content__title{
+    margin: 0px 18px 40px 0px;
+    font: 700 170px/225px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main-content__title-2 {
+    top: 148px;
+    left: 30%;
+    font: 700 60px/79px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main-content__subtitle {
+    max-width: 86%;
+    margin-left: 27px;
+    margin-bottom: 48px;
+    font: 500 18px/22px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__button {
+    margin-left: -7px;
+  }
+  .image-content {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 48px;
+    left: 87%;
+    width: 25px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fcf5ed;
+    transition-duration: .25s;
+  }
+
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 165px 0;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(245, 250, 255);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+    z-index: 1;
+  }
+
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font: 600 30px/36px museo_sans_cyrl, arial, helvetica, sans-serif;
+    transition-duration: .25s;
+  }
+
+  .menu__item:hover {
+    background-color: rgb(245, 250, 255);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    background-color: #172f27;
+    transform: rotate(0);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    background-color: #172f27;
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+}
+
+
+@media (max-width: 376px) {
+  body {
+    background: url('img/fonovayamobile.png');
+    background-repeat: no-repeat;
+  }
+  .menu__btn {
+    top: 52px;
+    left: 84%;
+  }
+
+  .menu__box {
+    padding: 175px 0;
+  }
+
+  .main-content__title-2 {
+    left: 60px;
+  }
+  #menu__toggle:checked ~ .menu__btn {
+    top: 28px;
+    left: 87%;
+  }
 
 }
