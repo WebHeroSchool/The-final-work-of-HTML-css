@@ -203,13 +203,14 @@ body {
     font: 700 70px/93px pt_serifbold, arial, helvetica, sans-serif;
   }
   .main-content__subtitle {
+    margin-left: 103px;
     margin-bottom: 37px;
     max-width: 64%;
     font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
   }
 
   .main-content__button {
-    margin-left: 102px;
+    margin-left: 104px;
     padding: 13px 62px;
     font: 500 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
   }
