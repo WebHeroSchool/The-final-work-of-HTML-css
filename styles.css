@@ -290,8 +290,45 @@ body {
     left: 4px;
   }
 }
+@media (max-width: 950px) {
+  .main-content__title {
+    font: 700 165px/230px pt_serifbold, arial, helvetica, sans-serif;;
+  }
 
-@media (max-width: 801px) {
+  .main-content__title-2 {
+    font: 700 57px/77px pt_serifbold, arial, helvetica, sans-serif;
+    top: 140px;
+    left: 55px;
+    margin: 0;
+  }
+
+  .main-content__subtitle {
+    max-width: 75%;
+    font: 500 15px/18px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .main-content__button {
+    font: 500 15px/18px museo_sans_cyrl, arial, helvetica, sans-serif;
+  }
+
+  .image-content__img1 {
+    width: 195px;
+    top: 78px;
+    right: 190px;
+  }
+
+  .image-content__img2 {
+    width: 180px;
+    top: 87px;
+    right: -9px;
+  }
+
+  .image-content__img3 {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
   .header {
     margin-bottom: 17px;
   }
