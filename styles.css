@@ -43,14 +43,6 @@ body {
   display: none;
 }
 
-.menu__btn {
-
-}
-
-.menu__box {
-
-}
-
 .main-section {
   display: flex;
   justify-content: space-between;
