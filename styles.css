@@ -33,7 +33,13 @@ body {
   margin-right: 39px;
   font: 500 22px/26px museo_sans_cyrl, arial, helvetica, sans-serif;
   color: #f8eee4;
+  transition: opacity .3s ease, font-weight .3s ease;
   cursor: pointer;
+}
+
+.menu__item:hover {
+  font-weight: 610;
+  opacity: 0.4;
 }
 .menu__item:last-child {
   margin-right: 0;
@@ -83,6 +89,12 @@ body {
   margin-left: 110px;
   font: 500 22px/23px museo_sans_cyrl, arial, helvetica, sans-serif;
   color: #fff;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.main-content__button:hover {
+  background-color: #fff;
+  color: #d4bea3;
 }
 
 .image-content {
